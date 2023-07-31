@@ -1,5 +1,4 @@
 async function Main() {
-  document.getElementById('start').style.display = 'none'
   let file = await fetch('Frames.json')
   let JSON = await file.json()
   for(let x = 0; x < JSON.length; x++){
