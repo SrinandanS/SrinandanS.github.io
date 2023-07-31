@@ -8,5 +8,6 @@ async function Main() {
   }
   
 }
+Main()
 
 //let Char = `<span style="color: ${color};">@ </span>`;
