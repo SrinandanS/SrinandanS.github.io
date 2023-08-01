@@ -1,4 +1,5 @@
 async function Main() {
+  await GetRes()
   let file = await fetch('Frames.json')
   let JSON = await file.json()
   for(let x = 0; x < JSON.length; x++){
@@ -7,6 +8,14 @@ async function Main() {
     
   }
   
+}
+async function GetRes(){
+  let width = window.screen.width;
+  let text = document.getElementById('text')
+  console.log(width+'x'+window.screen.height)
+  if(width < 1000){
+    text.style.fontSize = '2px'
+  }
 }
 Main()
 
