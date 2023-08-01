@@ -8,6 +8,7 @@ body {
   color: white;
   font-family: "Courier New", Courier, monospace;
   white-space: pre-wrap;
+  font-size: 1.2vw;
 }
 * {
   padding: 0 0 0 0;
